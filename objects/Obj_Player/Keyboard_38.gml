@@ -1,3 +1,3 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-Speed = 3;
+y = y - Speed;

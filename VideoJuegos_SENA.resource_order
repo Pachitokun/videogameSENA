@@ -15,11 +15,13 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"batman","order":3,"path":"folders/Sprites/batman.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"Object3","order":2,"path":"objects/Object3/Object3.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_bat_man_running","order":1,"path":"sprites/spr_bat_man_running/spr_bat_man_running.yy",},
     {"name":"Obj_wall","order":1,"path":"objects/Obj_wall/Obj_wall.yy",},
   ],
 }
