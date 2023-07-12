@@ -3,23 +3,23 @@
 if(keyboard_check(vk_right)){
 	x = x + Speed;
 	sprite_index = spr_bat_man_running;
-	image_xscale = 3;
+	image_xscale = 1;
 }
 else if(keyboard_check(vk_left)){
 	x = x - Speed;
 	sprite_index = spr_bat_man_running;
-	image_xscale = -3;
+	image_xscale = -1;
 }
 else if(keyboard_check(vk_up)){
-	x = x - Speed;
+	y = y - Speed;
 	sprite_index = spr_bat_man_running;
-	image_xscale = -3;
+	image_xscale = -1;
 }
 else if(keyboard_check(vk_down)){
-	x = x + Speed;
+	y = y + Speed;
 	sprite_index = spr_bat_man_running;
-	image_xscale = 3;
+	image_xscale = 1;
 }
 else {
 	sprite_index = spr_bat_man_idle;
-}
+      }

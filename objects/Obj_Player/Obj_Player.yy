@@ -42,6 +42,9 @@
     "name": "spr_bat_man_idle",
     "path": "sprites/spr_bat_man_idle/spr_bat_man_idle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_bat_man_idle",
+    "path": "sprites/spr_bat_man_idle/spr_bat_man_idle.yy",
+  },
   "visible": true,
 }
