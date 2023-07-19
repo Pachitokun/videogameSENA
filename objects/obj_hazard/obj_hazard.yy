@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hazard",
+  "name": "Obj_hazard",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -25,9 +25,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":63.0,},
-    {"x":0.0,"y":63.0,},
+    {"x":65.0,"y":0.0,},
+    {"x":65.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
   ],
   "physicsStartAwake": true,
   "properties": [],
