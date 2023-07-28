@@ -37,5 +37,5 @@
     "path": "sprites/Spr_goto/Spr_goto.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
