@@ -1,21 +1,26 @@
 state = PlayerStateFree;
-collisionMap = lyer_tilemap_get_id(layer_get_id("Col"));
+collisionMap = layer_tilemap_get_id(layer_get_id("Coll"));
 
 
 image_speed = 0;
-hspeed = 0;
-vspeed = 0;
-speedwalk = 2.0;
+hSpeed = 0;
+vSpeed = 0;
+speedWalk = 2.0;
+
+
+//Roll Anims
+spriteRoll = Spr_Roll;
+speedRoll = 3.0;
 
 Spd = 4; 
 hp = 100;
-speedRoll = 3.0;
-spriteRoll = Spr_Roll;
+
+
 distanceRoll = 72;
 localFrame = 0;
 spriteIdle = idle;
 
-if(room == Room1){
+if(room == Level1){
 	audio_play_sound(Sound1,0,true);
 }
 else {
