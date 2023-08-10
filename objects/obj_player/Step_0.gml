@@ -11,12 +11,7 @@ keyItem = keyboard_check_pressed(vk_control);
 switch (state)
 {
 	case "move":
-	
-		break;
-}
-if state == "move"
-{
-	
+	#region Move State
 	if(keyboard_check(vk_right))||keyboard_check(ord("D")){
 		x = x +Spd;
 		sprite_index = Spr_Run;
@@ -49,14 +44,10 @@ if state == "move"
 		image_index = 0;
 		state = "roll";
 	}
-}
-depth = -y;
-if(hp <= 0){
-	room_goto(RoomGameOver)	
-}
-
-if state == "roll"
-{
+	#endregion
+		break;
+	case "roll":
+	#region Roll State
 	sprite_index = Spr_Roll;
 	image_speed = 1;
 	
@@ -68,6 +59,15 @@ if state == "roll"
 	{
 		x -= 3;
 	}
+	#endregion
+		break;
 }
+
+depth = -y;
+if(hp <= 0){
+	room_goto(RoomGameOver)	
+}
+
+
 show_debug_message("we have to health ")
 show_debug_message(hp);

@@ -5,6 +5,7 @@
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Events_coll","order":4,"path":"folders/Objects/Events_coll.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -16,7 +17,6 @@
     {"name":"Spr_Player","order":4,"path":"folders/Sprites/Spr_Player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Events_coll","order":4,"path":"folders/Objects/Events_coll.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Obj_Control","order":7,"path":"objects/Obj_Control/Obj_Control.yy",},
