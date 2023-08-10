@@ -1,21 +1,17 @@
 image_speed = 1;
+state = "move";
 
 
 
 
 
-Spd = 4; 
+
+Spd = 3; 
 hp = 100;
 
 
 
 
-if(room == Level1){
-	audio_play_sound(Sound1,0,true);
-}
-else {
-	audio_stop_sound(Sound1);
-	audio_play_sound(Ugh,0,true);
-}
+
 
 

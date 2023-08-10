@@ -27,6 +27,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Spr_Player","folderPath":"folders/Sprites/Spr_Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Events_coll","folderPath":"folders/Objects/Events_coll.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -35,6 +36,8 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"Obj_Control","path":"objects/Obj_Control/Obj_Control.yy",},},
+    {"id":{"name":"Spr_Run","path":"sprites/Spr_Run/Spr_Run.yy",},},
     {"id":{"name":"Obj_hazard","path":"objects/Obj_hazard/Obj_hazard.yy",},},
     {"id":{"name":"Obj_Game_Over","path":"objects/Obj_Game_Over/Obj_Game_Over.yy",},},
     {"id":{"name":"obj_go_to_room_1","path":"objects/obj_go_to_room_1/obj_go_to_room_1.yy",},},
@@ -62,7 +65,6 @@
     {"id":{"name":"Obj_Ending_sensor","path":"objects/Obj_Ending_sensor/Obj_Ending_sensor.yy",},},
     {"id":{"name":"spr_hazard","path":"sprites/spr_hazard/spr_hazard.yy",},},
     {"id":{"name":"spr_tile_city","path":"sprites/spr_tile_city/spr_tile_city.yy",},},
-    {"id":{"name":"Spr_Run","path":"sprites/Spr_Run/Spr_Run.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "RoomOrderNodes": [

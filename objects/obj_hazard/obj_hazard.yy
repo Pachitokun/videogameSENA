@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Events_coll",
+    "path": "folders/Objects/Events_coll.yy",
   },
   "parentObjectId": null,
   "persistent": false,
