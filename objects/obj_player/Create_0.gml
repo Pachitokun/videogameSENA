@@ -6,7 +6,7 @@ state = "move";
 
 
 
-Spd = 3; 
+ Spd = 3;
 hp = 100;
 
 
